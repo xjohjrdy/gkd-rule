@@ -1,4 +1,7 @@
-{
+
+import { defineGkdApp } from '@gkd-kit/define';
+
+export default defineGkdApp({
   id: 'com.galaxy.stock',
   name: '银河证券',
   groups: [
@@ -8,4 +11,4 @@
       rules: { matches: '[id="com.galaxy.stock:id/closeBtn"]' },
     },
   ],
-}
+});

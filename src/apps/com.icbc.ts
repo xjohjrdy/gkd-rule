@@ -1,7 +1,7 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.icbc.',
+  id: 'com.icbc',
   name: '中国工商银行',
   groups: [
     {

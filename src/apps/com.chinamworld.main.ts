@@ -7,7 +7,10 @@ export default defineGkdApp({
     {
       key: 0,
       name: '拒绝存储权限',
-      rules: { matches: '[id="com.chinamworld.main:id/tv_dlg_content" && text*="存储"]' },
+      rules: {
+        matches:
+          '[id="com.chinamworld.main:id/tv_dlg_content" && text*="存储"]',
+      },
     },
   ],
 });

@@ -12,7 +12,8 @@ export default defineGkdApp({
         //   '[id="com.chinamworld.main:id/tv_dlg_content" && text*="存储"]',
         //   '[id="com.chinamworld.main:id/dlg_left_tv"]',
         // ],
-        matches: '@TextView[id="com.chinamworld.main:id/dlg_left_tv"] <<n LinearLayout > ScrollView > LinearLayout > TextView[id="com.chinamworld.main:id/tv_dlg_content"][text *= "存储"]',
+        matches:
+          '@TextView[id="com.chinamworld.main:id/dlg_left_tv"] <<n LinearLayout > ScrollView > LinearLayout > TextView[id="com.chinamworld.main:id/tv_dlg_content"][text *= "存储"]',
       },
     },
   ],

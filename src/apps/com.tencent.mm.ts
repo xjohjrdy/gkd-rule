@@ -15,9 +15,8 @@ export default defineGkdApp({
         action: 'clickCenter',
         matches: [
           '[text="广告"]',
-          '[text="跳过"]',
-        ],
-
+          '[text="跳过"]'
+        ]
     },
   ],
 });

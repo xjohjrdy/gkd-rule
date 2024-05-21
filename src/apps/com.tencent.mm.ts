@@ -6,7 +6,10 @@ export default defineGkdApp({
     {
       key: 0,
       name: '小程序广告跳过',
-      activityIds: ['com.tencent.mm.plugin.appbrand.ui.AppBrandUI00','com.tencent.mm.plugin.appbrand.ui.AppBrandUI01'],
+      activityIds: [
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI00',
+        'com.tencent.mm.plugin.appbrand.ui.AppBrandUI01',
+      ],
       rules: {
         matches: ['[text="广告"]', '[text="跳过"]'],
       },

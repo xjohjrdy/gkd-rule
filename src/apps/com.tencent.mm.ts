@@ -14,7 +14,7 @@ export default defineGkdApp({
       rules: {
         action: 'clickCenter',
         matches: [
-          '[text="存储"]',
+          '[text="广告"]',
           '[text="跳过"]',
         ],
 

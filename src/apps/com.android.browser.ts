@@ -6,9 +6,7 @@ export default defineGkdApp({
     {
       key: 0,
       name: '浏览器跳转弹窗',
-      activityIds: [
-        'com.android.browser.BrowserActivity'
-      ],
+      activityIds: ['com.android.browser.BrowserActivity'],
       rules: {
         matches: ['[id="android:id/button1"]', '[text="跳过"]'],
       },

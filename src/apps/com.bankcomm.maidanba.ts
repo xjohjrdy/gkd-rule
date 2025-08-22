@@ -12,8 +12,7 @@ export default defineGkdApp({
         //   '[id="com.chinamworld.main:id/tv_dlg_content" && text*="存储"]',
         //   '[id="com.chinamworld.main:id/dlg_left_tv"]',
         // ],
-        matches:
-          '@RelativeLayout[id="com.bankcomm.maidanba:id/ll_ad_skip"]',
+        matches: '@RelativeLayout[id="com.bankcomm.maidanba:id/ll_ad_skip"]',
       },
     },
   ],

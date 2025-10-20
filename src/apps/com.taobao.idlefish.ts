@@ -7,7 +7,7 @@ export default defineGkdApp({
       key: 0,
       name: '跳过广告',
       rules: {
-        matches: ['[id="splash_ad_close"]'],
+        matches: ['[id="com.taobao.idlefish:id/splash_ad_close"]'],
       },
     },
   ],
